@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+/* * ----- general style ----- */
+
+div {
+  display: flex;
+  align-content: space-around;
+}
+
+fieldset {
+  margin: 10px;
+  padding: 5px 10px 10px 10px;
+  border-color: black;
+}
+
+section {
+  margin: 2px;
+}
+
+/* * ----- flex-container style ----- */
+
+.label-container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-bottom: 5px;
+}
+
+.input-container {
+  display: flex;
+  width: 70%;
+}
+
+/* # anordnen der container nebeneinander mit % der Bildschirmbreite! */
+
+/* * ----- individual section style ----- */
+
+/* .name input,
+.surname input,
+.mail input {
+} */
+/* - input felder wie verkleinern und links anordnen? */
+
+.help-text {
+  display: flex;
+  align-items: flex-end;
+}
+
+p {
+  height: fit-content;
+  margin: 0;
+  padding: 0 5px;
+}

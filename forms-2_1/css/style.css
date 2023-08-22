@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html {
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* * ----- general style ----- */
+
+form {
+  height: 400px;
+  width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  max-width: 360px;
+  min-width: 360px;
+  margin: 0 auto;
+  display: block;
+  background-color: #eee;
+}
+
+/* * ----- contact style ----- */
+
+.contact {
+  text-align: center;
+  background-color: #43d1af;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+/* * ----- section , input & textarea style ----- */
+
+section {
+  max-width: 360px;
+  margin: 10px 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  font-family: "Arial";
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ddd;
+}
+
+/* * ----- submit style ----- */
+
+input[type="submit"] {
+  background-color: #43d1af;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+}
+
+input[type="submit"]:hover {
+  background-color: #2ebc99;
+}

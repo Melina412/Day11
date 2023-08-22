@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* * ----- general style ----- */
+
+fieldset {
+  height: 400px;
+  width: 400px;
+  margin: 20px auto;
+  display: block;
+  border: none;
+}
+
+section {
+  max-width: 360px;
+}
+
+.name,
+.mail,
+.thema,
+.nachricht {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+}
+
+/* * ----- label style ----- */
+
+.name label::after,
+.mail label::after,
+.nachricht label::after {
+  content: " *";
+  color: red;
+}
+
+/* * ----- name section style ----- */
+
+.name-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: stretch;
+}
+
+.name input[type="text"] {
+  width: 49%;
+}
+
+/* * ----- button style ----- */
+
+input[type="submit"] {
+  height: 25px;
+  width: 360px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #00888a;
+  border: none;
+  color: #fff;
+  margin-left: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #000062;
+}
